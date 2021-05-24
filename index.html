@@ -218,20 +218,20 @@
                 <div class="nk-news-box-list">
                     <div class="nano">
                         <div class="nano-content">
-                            
+
                             <div v-bind:class="index === 0 ? 'nk-news-box-item nk-news-box-item-active' : 'nk-news-box-item'" v-for="(newsItem, index) of newsItems">
                                 <div class="nk-news-box-item-img">
                                     <img v-bind:src="newsItem.smallImage" v-bind:alt="newsItem.title">
                                 </div>
                                 <img v-bind:src="newsItem.image" v-bind:alt="newsItem.title" class="nk-news-box-item-full-img">
                                 <h3 class="nk-news-box-item-title">{{ newsItem.title }}</h3>
-                                
+
                                 <div class="nk-news-box-item-text">
                                     <p>{{ newsItem.description }}</p>
                                 </div>
                                 <div class="nk-news-box-item-date"><span class="fa fa-calendar"></span> {{ newsItems[0].date }}</div>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -275,14 +275,14 @@
                     <h3 class="code-line" data-line-start=14 data-line-end=15><a id="Redistributables_14"></a>Redistributables</h3>
                     <p class="has-line-data" data-line-start="16" data-line-end="17">The BattleForge client requires various redistributables to be installed. The following redistributables are known:</p>
                     <ul>
-                        <li class="has-line-data" data-line-start="18" data-line-end="19"><a
-                                href="http://download.microsoft.com/download/8/4/A/84A35BF1-DAFE-4AE8-82AF-AD2AE20B6B14/directx_Jun2010_redist.exe">Directx_Jun2010_redist</a>
+                        <li class="has-line-data" data-line-start="18" data-line-end="19">
+                            <a href="http://download.microsoft.com/download/8/4/A/84A35BF1-DAFE-4AE8-82AF-AD2AE20B6B14/directx_Jun2010_redist.exe">DirectX_Jun2010_redist</a>
                         </li>
-                        <li class="has-line-data" data-line-start="19" data-line-end="20"><a
-                                href="https://www.microsoft.com/en-us/download/details.aspx?id=40784">VS C++ redist 2013</a>
+                        <li class="has-line-data" data-line-start="19" data-line-end="20">
+                            <a href="https://www.microsoft.com/en-us/download/details.aspx?id=40784">VS C++ redist 2013</a>
                         </li>
-                        <li class="has-line-data" data-line-start="20" data-line-end="22"><a
-                                href="https://www.microsoft.com/en-US/download/details.aspx?id=48145">VS C++ redist 2015</a>
+                        <li class="has-line-data" data-line-start="20" data-line-end="22">
+                            <a href="https://www.microsoft.com/en-US/download/details.aspx?id=48145">VS C++ redist 2015</a>
                         </li>
                     </ul>
                     <h3 class="code-line" data-line-start=22 data-line-end=23><a id="BattleForge_client_22"></a>BattleForge client</h3>
@@ -291,7 +291,7 @@
                         <li class="has-line-data" data-line-start="25" data-line-end="26"><a href="https://mega.nz/file/yI4y3ARD#ZwB5ziGg5W-ariNFxd25ptyn4D93Kj-J8ox3EJyh5xI">Click here to download BattleForge client from MEGA</a></li>
                     </ul>
                     <h3 class="code-line" data-line-start=28 data-line-end=29><a id="OpenForge_Launcher_28"></a>OpenForge Launcher</h3>
-                    <p class="has-line-data" data-line-start="30" data-line-end="31">The OpenForge launcher can be downloaded from the <a href="https://github.com/OpenForgeBf/OpenForge/releases">releases</a> page or click <a href="https://github.com/OpenForgeBf/OpenForge/releases/download/1.0.0/OpenForge.Launcher.v1.0.0.zip">here</a> for a direct link.</p>
+                    <p class="has-line-data" data-line-start="30" data-line-end="31">The OpenForge launcher can be downloaded from the <a href="https://github.com/OpenForgeBf/OpenForge/releases"><strong>releases</strong></a> page or click <a href="https://github.com/OpenForgeBf/OpenForge/releases/download/1.0.0/OpenForge.Launcher.v1.0.0.zip"><strong>here</strong></a> for a direct link.</p>
                     <hr>
                     <h2 class="code-line" data-line-start=34 data-line-end=35><a id="Getting_Started_with_OpenForge_as_a_player_34"></a>Getting Started with OpenForge as a player</h2>
                     <h3 class="code-line" data-line-start=36 data-line-end=37><a id="Placing_the_Launcher_36"></a>Placing the Launcher</h3>
@@ -299,9 +299,13 @@
                     <p class="has-line-data" data-line-start="40" data-line-end="41">Alternatively the launcher can be placed anywhere and <i>Battleforge.exe</i> can be located using the <strong>Find Battleforge.exe</strong> button on the</p>
                     <h3 class="code-line" data-line-start=42 data-line-end=43><a id="Starting_the_Launcher_42"></a>Starting the Launcher</h3>
                     <p class="has-line-data" data-line-start="44" data-line-end="45">The next step is to start the launcher using <i>OpenForgeLauncher.exe</i> and that’s it! You are ready to play!</p>
-                    <p class="has-line-data" data-line-start="46" data-line-end="47"><img src="assets/images/launcher.png" alt="Launcher"title="Launcher"></p>
+                    <p class="has-line-data" data-line-start="46" data-line-end="47"><img src="assets/images/launcher.png" alt="Launcher" title="Launcher"></p>
                     <h3 class="code-line" data-line-start=48 data-line-end=49><a id="Play_48"></a>Play</h3>
                     <p class="has-line-data" data-line-start="50" data-line-end="51">Click the <strong>Play</strong> button to start BattleForge. Any credentials can be used to login.</p>
+                    <h3 class="code-line" data-line-start="52" data-line-end="53">Troubleshooting</h3>
+                    <p class="has-line-data" data-line-start="54" data-line-end="55">Linking to BattleForge.exe in a folder with a different previously used launcher may not work when attempting to launch</p>
+                    <p class="has-line-data" data-line-start="55" data-line-end="57">If any other issues occur during launch or ingame, please let us know by either creating an issue on our <a href="https://git.gnd.ai/koenj/bfstandalone/-/issues"><strong>GitHub</strong></a> or contact us directly via <a href="https://discord.gg/XAJKEjgQ8p"><strong>Discord</strong></a></p>
+
                 </div>
             </div>
 
