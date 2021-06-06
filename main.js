@@ -8,7 +8,7 @@ function onLoad() {
                     description: 'The phase 2 launch allows players to play with friends using peer to peer technology. You can join anybody by connecting to their machine and joining up with your friends.', 
                     image: 'assets/images/post-3.jpg', 
                     smallImage: 'assets/images/post-3-sm.jpg', 
-                    date: 'May 23, 2021' 
+                    date: 'Jun 6, 2021' 
                 },
                 { 
                     title: 'Website Launch', 
